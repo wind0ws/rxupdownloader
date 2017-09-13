@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.threshold.rxupdownloader.UploadFragment"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <android.support.v7.widget.ButtonBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload file"/>
+    </android.support.v7.widget.ButtonBarLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnCancelUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel upload task"/>
+
+</LinearLayout>
